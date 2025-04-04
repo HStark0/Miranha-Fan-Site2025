@@ -1,0 +1,151 @@
+Projeto Fan-Site do Homem-Aranha
+
+Descrição do Projeto
+
+Este projeto foi desenvolvido com o objetivo de demonstrar habilidades em desenvolvimento web, combinando design responsivo e conteúdo organizado sobre o icônico personagem da Marvel, o Homem-Aranha.
+
+O site é uma homenagem ao herói, explorando suas diferentes versões, histórias marcantes, habilidades, adaptações cinematográficas e sua presença nos jogos eletrônicos.
+
+Estrutura do Site
+
+O projeto é dividido em 5 seções principais, cada uma com um foco específico:
+
+- Home (Início)
+
+Apresentação breve do personagem.
+
+Background dinâmico com imagens das diferentes versões do Homem-Aranha (Tobey Maguire, Andrew Garfield, Tom Holland, Miles Morales).
+
+Introdução ao conteúdo do site.
+
+- Sobre
+
+Detalhes aprofundados sobre a origem do personagem.
+
+Principais histórias dos quadrinhos.
+
+Destaque para os diferentes alter-egos (Peter Parker, Miles Morales, etc.).
+
+- Poderes
+
+Lista detalhada das habilidades do Homem-Aranha:
+
+Sentido-Aranha (precognição de perigo).
+
+Agilidade e força sobre-humana.
+
+Adesão a superfícies.
+
+Uso de teias artificiais (e orgânicas, em algumas versões).
+
+Gifs e imagens ilustrativas para tornar a experiência mais interativa.
+
+- Jogos
+
+Análise da evolução dos jogos do Homem-Aranha:
+
+Clássicos como Spider-Man (2000) e Spider-Man 2 (2004).
+
+Jogos recentes como Marvel’s Spider-Man (2018) e Spider-Man: Miles Morales (2020).
+
+Comparação entre mecânicas de jogabilidade e gráficos ao longo dos anos.
+
+- Filmes
+
+Cronologia das adaptações cinematográficas:
+
+Trilogia do Sam Raimi (Tobey Maguire).
+
+Série "The Amazing Spider-Man" (Andrew Garfield).
+
+Universo Cinematográfico Marvel (MCU) (Tom Holland).
+
+Filmes de animação ("Homem-Aranha no Aranhaverso").
+
+Breve resumo e curiosidades sobre cada produção.
+
+-------------------------------------------------------------------
+
+Etapas de Desenvolvimento
+
+- Estruturação HTML
+
+Definição da hierarquia de elementos (<header>, <main>, <footer>).
+
+Uso de <div> e <section> para organização do layout.
+
+Implementação de tags semânticas para melhor acessibilidade.
+
+- Estilização com CSS
+
+Aplicação de CSS Grid e Flexbox para layouts responsivos.
+
+Personalização de cores, bordas e efeitos de hover.
+
+Adaptação para diferentes tamanhos de tela (mobile, tablet, desktop).
+
+- Links e Navegação
+
+Criação de uma barra de navegação fixa com links internos.
+
+Estilização de botões e interações para melhor usabilidade.
+
+- Inserção de Conteúdo Multimídia
+
+Uso de imagens otimizadas para performance.
+
+Incorporação de GIFs (via Tenor) para demonstrar movimentos e poderes.
+
+Adição de ícones SVG para redes sociais (Instagram, Twitter, YouTube).
+
+- Tipografia e Design
+
+Importação da fonte Nunito (Google Fonts) para melhor legibilidade.
+
+Ajustes de espaçamento e hierarquia visual.
+
+- Bibliotecas e Ferramentas Externas
+
+Flowbite: Componentes UI pré-prontos para agilizar o desenvolvimento.
+
+Google Fonts: Customização tipográfica.
+
+Tenor: Integração de GIFs dinâmicos.
+
+-------------------------------------------------------------------
+
+Tecnologias Utilizadas
+
+HTML5 --> Estruturação do conteúdo.
+
+CSS3 --> Estilização e layout responsivo.
+
+Google Fonts --> Importação da fonte Nunito.
+
+Flowbite --> Componentes UI (botões, cards).
+
+Tenor --> Banco de GIFs para ilustrações.
+
+SVG --> Ícones personalizados para redes sociais.
+
+-------------------------------------------------------------------
+
+Conclusão
+
+Este projeto não apenas cumpre seu propósito avaliativo, mas também serve como um catálogo interativo para fãs do Homem-Aranha. A combinação de design moderno, navegação intuitiva e conteúdo bem organizado proporciona uma experiência imersiva sobre o amado herói.
+
+Próximos passos:
+
+Implementar um modo escuro/claro.
+
+Expandir para outros personagens do universo Marvel.
+
+🔗 Link do projeto no GitHub Pages / Vercel: (ainda não hospedado)
+
+-------------------------------------------------------------------
+
+Desenvolvido por [Henderson Lima de Souza]
+
+📧 Contato: [limahenderson0@gmail.com]
+
+🚀 GitHub: [https://github.com/HStark0]
