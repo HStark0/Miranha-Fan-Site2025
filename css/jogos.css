@@ -127,6 +127,73 @@ header {
         border-radius: 24px;
         padding: 30px;
         gap: 20px;
+        text-align: justify;
+
+        h2 {
+            font-size: 25px;
+            text-transform: uppercase;
+            color: var(--red);
+        }
+        
+        .IMG-Jogos1 {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        
+        .jogo {
+            display: flex;
+            flex-direction: column;
+            width: 850px;
+            background-color: var(--blue-body);
+			border-radius: 24px;
+            padding: 10px;
+            gap: 20px;
+
+            .card-jogo {
+                display: flex;
+                width: 100%;
+                background: var(--carvao);
+                border-radius: 24px;
+
+                img {
+                    width: 200px;
+                    border-radius: 24px 0px 0px 24px;
+                }
+
+                .info-jogo {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 20px;
+
+                    h4 {
+                        opacity: 0.5;
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+
+                .video {
+                    width: auto;
+                    border-radius: 0px 24px 24px 0px;
+                }
+            }
+
+            .info-complemento {
+                width: 100%;
+                height: auto;
+                background: var(--carvao);
+                border-radius: 24px;
+
+                p {
+                    padding: 30px;
+                }
+            }
+        }
 	}
 }
 

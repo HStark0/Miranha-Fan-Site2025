@@ -22,9 +22,9 @@ body {
 
 /* GRID */
 
-.border {
+/* .border {
     border: 1px solid white;
-}
+} */
 
 #container {
     display: grid;
@@ -144,7 +144,11 @@ header {
 		.info-poderes {
 			display: flex;
 			flex-direction: column;
+			padding: 20px;
+            background-color: var(--carvao);
+			border-radius: 10px;
 			gap: 20px;
+			transition: 0.3s ease-in-out;
 
 			h3 {
 				font-size: 20px;
@@ -154,9 +158,6 @@ header {
 
 			p {
 				text-align: justify;
-				padding: 30px;
-                background-color: var(--carvao);
-				border-radius: 10px;
 			}
 			
 			.img-poderes {
@@ -169,8 +170,14 @@ header {
 					height: 170px;
 					object-fit: cover;
 					border-radius: 10px;
+					transition: 0.3s ease-in-out;
 				}
 			}
+		}
+
+		.info-poderes:hover {
+			background-color: var(--blue);
+			transition: 0.3s ease-in-out;
 		}
 		 
 	}
