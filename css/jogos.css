@@ -14,6 +14,7 @@ body {
     --florestanoturna: #121813;
     --cacau: #191815;
     --carvao: #282729;
+    --carvao2: #464647;
     --blue-rodape: #02091b;
     --blue-rodape-botton: #051233;
 }
@@ -22,9 +23,9 @@ body {
 
 /* GRID */
 
-.border {
+/* .border {
     border: 1px solid white;
-}
+} */
 
 #container {
     display: grid;
@@ -146,7 +147,7 @@ header {
             display: flex;
             flex-direction: column;
             width: 850px;
-            background-color: var(--blue-body);
+            background-color: var(--carvao2);
 			border-radius: 24px;
             padding: 10px;
             gap: 20px;
@@ -183,6 +184,19 @@ header {
                 }
             }
 
+            .gif-poster {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                
+                img {
+                    width: 850px;
+                    height: 400px;
+                    border-radius: 24px;
+                    object-fit: cover;
+                }
+            }
+
             .info-complemento {
                 width: 100%;
                 height: auto;
@@ -191,6 +205,17 @@ header {
 
                 p {
                     padding: 30px;
+                }
+
+                .jogabilidade-gifs {
+                    display: flex;
+                    justify-content: center;
+                    gap: 20px;
+                    
+                    img {
+                        width: 390px;
+                        border-radius: 24px;
+                    }
                 }
             }
         }

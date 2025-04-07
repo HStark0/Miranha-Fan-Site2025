@@ -14,6 +14,7 @@ body {
     --florestanoturna: #121813;
     --cacau: #191815;
     --carvao: #282729;
+    --carvao2: #464647;
     --blue-rodape: #02091b;
     --blue-rodape-botton: #051233;
 }
@@ -127,7 +128,114 @@ header {
         border-radius: 24px;
         padding: 30px;
         gap: 20px;
+        text-align: justify;
 	}
+
+    h2 {
+        font-size: 25px;
+        text-transform: uppercase;
+        color: var(--red);
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .filme {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 850px;
+        background-color: var(--carvao);
+		border-radius: 24px;
+        padding: 20px;
+
+        h2 {
+            font-size: 25px;
+            text-transform: uppercase;
+            color: var(--red);
+        }
+
+        .background-filmes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 250px;
+                height: 337px;
+                border-radius: 24px 0px 0px 0px;
+            }
+
+            video {
+                width: 600px;
+                border-radius: 0px 24px 0px 0px;
+            }
+        }
+        
+        .sinopse {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 10px;
+            background-color: var(--red);
+
+            .streamings {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+
+            a {
+                text-decoration: none;
+    
+                img {
+                    width: 35px;
+                    opacity: 0.3;
+                    transition: all 0.4s;
+                }
+    
+                img:hover {
+                    opacity: 1;
+                    transform: translateY(-10px);
+                    transition: all 0.4s;
+                }
+            }
+        }
+
+        .info-filmes {
+            display: flex;
+            justify-content: space-between;
+            width: 810.1px;
+            padding: 20px;
+            background-color: var(--blue);
+            border-radius: 0px 0px 24px 24px;
+
+            .info-filmes-p {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            
+            .info-filmes-gif {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                border-radius: 24px;
+                background-color: var(--blue-body);
+    
+                img {
+                    width: 200px;
+                    border-radius: 24px; 
+                }
+            }
+        }
+    }
 }
 
 #right {
