@@ -149,59 +149,97 @@ header {
         justify-content: center;
         align-items: center;
         width: 850px;
-        background-color: var(--carvao);
+        background-color: var(--blue-rodape);
 		border-radius: 24px;
         padding: 20px;
-
-        h2 {
-            font-size: 25px;
-            text-transform: uppercase;
-            color: var(--red);
-        }
-
-        .background-filmes {
+        gap: 20px;
+        
+        .card-filme {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 100%;
+            background: var(--carvao);
+            border-radius: 24px;
 
             img {
-                width: 250px;
-                height: 337px;
-                border-radius: 24px 0px 0px 0px;
+                width: 230px;
+                border-radius: 24px 0px 0px 24px;
+                object-fit: cover;
             }
 
             video {
-                width: 600px;
-                border-radius: 0px 24px 0px 0px;
+                width: 620px;
+                border-radius: 0px 24px 24px 0px;
             }
         }
-        
-        .sinopse {
+
+        .infos-gerais {
             display: flex;
-            flex-direction: column;
             padding: 20px;
-            gap: 10px;
-            background-color: var(--red);
+            background: var(--blue);
+            border-radius: 24px;
 
-            .streamings {
+            .info-filme-detalhes {
                 display: flex;
-                align-items: center;
+                flex-direction: column;
+                justify-content: center;
                 gap: 20px;
-            }
-
-            a {
-                text-decoration: none;
+                padding: 20px;
+                background: var(--carvao);
+                border-radius: 24px;
     
-                img {
-                    width: 35px;
-                    opacity: 0.3;
-                    transition: all 0.4s;
+                h2 {
+                    text-align: left;
                 }
     
-                img:hover {
-                    opacity: 1;
-                    transform: translateY(-10px);
-                    transition: all 0.4s;
+                h3 {
+                    opacity: 0.5;
+                }
+    
+                p {
+                    text-align: left;
+                    font-size: 16px;
+                }
+
+                .line-into {
+                    width: 250px;
+                    border: 1px solid var(--carvao2);
+                    border-radius: 100px;
+                }
+            }
+    
+            .sinopse {
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+                gap: 20px;
+                background: var(--blue);
+                border-radius: 24px;
+
+                p {
+                    font-size: 14px;
+                }
+            
+    
+                .streamings {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+    
+                    a {
+                        text-decoration: none;
+            
+                        img {
+                            width: 35px;
+                            opacity: 0.3;
+                            transition: all 0.4s;
+                        }
+            
+                        img:hover {
+                            opacity: 1;
+                            transform: translateY(-10px);
+                            transition: all 0.4s;
+                        }
+                    }
                 }
             }
         }
@@ -209,29 +247,27 @@ header {
         .info-filmes {
             display: flex;
             justify-content: space-between;
-            width: 810.1px;
-            padding: 20px;
-            background-color: var(--blue);
-            border-radius: 0px 0px 24px 24px;
+            align-items: center;
+            width: 100%;
+            border-radius: 24px;
+            background-color: var(--red);
 
             .info-filmes-p {
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
+                padding: 30px;
             }
-            
+
             .info-filmes-gif {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 align-items: center;
-                padding: 10px;
-                border-radius: 24px;
-                background-color: var(--blue-body);
+                padding: 20px;
+                background-color: var(--blue);
+                border-radius: 0px 24px 24px 0px;
     
                 img {
                     width: 200px;
-                    border-radius: 24px; 
+                    border-radius: 24px;
                 }
             }
         }
