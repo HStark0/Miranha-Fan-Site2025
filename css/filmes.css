@@ -23,9 +23,9 @@ body {
 
 /* GRID */
 
-.border {
+/* .border {
     border: 1px solid white;
-}
+} */
 
 #container {
     display: grid;
@@ -231,6 +231,7 @@ header {
                         img {
                             width: 35px;
                             opacity: 0.3;
+                            border-radius: 5px;
                             transition: all 0.4s;
                         }
             
@@ -272,6 +273,59 @@ header {
             }
         }
     }
+
+    .info-versoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 850px;
+        background-color: var(--blue-rodape);
+		border-radius: 24px;
+        padding: 20px;
+        padding-top: 0px;
+        gap: 20px;
+
+        .versoes1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 840px;
+                border-radius: 24px;
+            }
+        }
+        
+        .versoes {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(161, 0, 0);
+            border-radius: 24px;
+
+            img {
+                width: 400px;
+                height: 500px;
+                object-fit: cover;
+                border-right: 1px solid #BFC4DF;
+                border-radius: 24px 0px 0px 24px;
+            }
+
+            .text-versoes {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 20px;
+                font-size: 15px;
+
+                h2 {
+                    font-size: 15px;
+                    text-transform: uppercase;
+                    color: var(--text);
+                }
+            }
+        }
+    }
 }
 
 #right {
@@ -308,3 +362,165 @@ footer {
 		transition: all 0.4s;
 	}
 }
+
+/* RESPONSIVIDADE: */
+
+@media (max-width: 1200px) {
+    .backgroundmain, .filme, .info-versoes {
+      width: 100%;
+    }
+  
+    .card-filme video {
+      width: 100%;
+    }
+  
+    .card-filme img {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #container {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    }
+  
+    header {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .options {
+      flex-wrap: wrap;
+      gap: 20px;
+      width: auto;
+      padding: 10px;
+    }
+  
+    .spider {
+      margin-left: 0;
+    }
+  
+    .filme {
+      flex-direction: column;
+    }
+  
+    .card-filme {
+      flex-direction: column;
+    }
+  
+    .card-filme img, .card-filme video {
+      width: 100%;
+      border-radius: 24px;
+    }
+  
+    .info-filmes {
+      flex-direction: column;
+    }
+  
+    .info-filmes-gif {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .info-filmes-gif img {
+      width: 120px;
+    }
+  
+    .versoes {
+      flex-direction: column;
+    }
+  
+    .versoes img {
+      width: 100%;
+      height: auto;
+      border-radius: 24px 24px 0 0;
+      border: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .options h1 {
+      font-size: 16px;
+    }
+  
+    .info-filme-detalhes h2 {
+      font-size: 18px;
+    }
+  
+    .info-filme-detalhes p,
+    .sinopse p {
+      font-size: 13px;
+    }
+  
+    .info-filmes-p {
+      padding: 15px;
+    }
+  
+    .versoes1 img {
+      width: 100%;
+    }
+  
+    .streamings img {
+      width: 30px;
+    }
+  
+    footer {
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .options {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .options h1 {
+      font-size: 14px;
+    }
+  
+    .card-filme img, .card-filme video {
+      border-radius: 12px;
+    }
+  
+    .info-filmes-gif img {
+      width: 90px;
+    }
+  
+    .versoes .text-versoes h2 {
+      font-size: 13px;
+    }
+  
+    .versoes .text-versoes p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .options {
+      width: 100%;
+    }
+  
+    .options h1 {
+      font-size: 12px;
+    }
+  
+    .streamings img {
+      width: 25px;
+    }
+  
+    .info-filmes-gif img {
+      width: 70px;
+    }
+  
+    .text-versoes {
+      padding: 10px;
+    }
+  }
