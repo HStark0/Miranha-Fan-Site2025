@@ -1,3 +1,4 @@
+![Banner do Homem-Aranha](assets/Imagens/Jogos/IMG%20-%20Jogos.jpeg)
 
 # 🕷️ Fan-Site do Homem-Aranha
 
@@ -38,15 +39,16 @@ O projeto é dividido em **5 seções principais**, cada uma com foco específic
   - Escalada em superfícies
   - Criação de teias artificiais
 
+### 🎥 Cinema
+- Histórias dos filmes live-action e animações.
+- Comparativo entre as franquias.
+- Análises dos atores que interpretaram o herói.
+
 ### 🎮 Jogos
 - Evolução do Homem-Aranha no mundo dos games.
 - Jogos clássicos e lançamentos recentes.
 - Análises de jogabilidade e gráficos.
 
-### 🎥 Cinema
-- Histórias dos filmes live-action e animações.
-- Comparativo entre as franquias.
-- Análises dos atores que interpretaram o herói.
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -63,17 +65,29 @@ O projeto é dividido em **5 seções principais**, cada uma com foco específic
 
 ---
 
-## Conclusão
+## 📸 Capturas de Tela
 
-Este projeto não apenas cumpre seu propósito avaliativo, mas também serve como um catálogo interativo para fãs do Homem-Aranha. A combinação de design moderno, navegação intuitiva e conteúdo bem organizado proporciona uma experiência imersiva sobre o amado herói.
+![Tela Home](assets/Imagens/Capturas/Home.png)
+
+![Tela Sobre](assets/Imagens/Capturas/Sobre.png)
+
+![Tela Poderes](assets/Imagens/Capturas/Poderes.png)
+
+![Tela Jogos](assets/Imagens/Capturas/Jogos.png)
+
+![Tela Filmes](assets/Imagens/Capturas/Filmes.png)
+
+---
 
 ## 👨‍💻 Autor: Henderson Lima de Souza
 Desenvolvido por um fã do Homem-Aranha para fins educacionais e de demonstração de habilidades em front-end.
 
-🔗 Link do projeto: [https://spiderfansite.netlify.app/]
+---
 
--------------------------------------------------------------------
+## 🔗 Links Importantes
 
-📧 Contato: [limahenderson0@gmail.com]
+- 🌐 Link do projeto: [https://spiderfansite.netlify.app/](https://spiderfansite.netlify.app/)
 
-🚀 GitHub: [https://github.com/HStark0]
+- 📧 Contato: [limahenderson0@gmail.com](mailto:limahenderson0@gmail.com)
+
+- 🚀 GitHub: [https://github.com/HStark0](https://github.com/HStark0)
